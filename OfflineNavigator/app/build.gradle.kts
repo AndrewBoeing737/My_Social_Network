@@ -6,12 +6,13 @@ plugins {
 
 android {
     namespace = "com.apple.navigator"
-    compileSdk = 34
+    compileSdk = 36
+    buildToolsVersion = "36.0.0"
 
     defaultConfig {
         applicationId = "com.apple.navigator"
         minSdk = 26
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
         ndk { debugSymbolLevel = "none" }
